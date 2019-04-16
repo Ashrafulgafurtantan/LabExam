@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="anchorPane" prefHeight="520.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CreatePersonController">
+   <children>
+      <TextField fx:id="name" layoutX="78.0" layoutY="75.0" promptText="Name" />
+      <PasswordField fx:id="Pass" layoutX="78.0" layoutY="204.0" promptText="Password" />
+      <Button fx:id="Create" layoutX="269.0" layoutY="420.0" mnemonicParsing="false" onAction="#CreateButtonAction" text="Create" />
+      <Label layoutX="78.0" layoutY="24.0" prefHeight="31.0" prefWidth="222.0" text="Creae New Account" />
+      <TextField layoutX="321.0" layoutY="82.0" promptText="Father's Name" />
+      <TextField layoutX="78.0" layoutY="141.0" promptText="Mother's Name" />
+      <TextField layoutX="315.0" layoutY="141.0" promptText="Address" />
+      <TextField layoutX="315.0" layoutY="195.0" promptText="Registration Number" />
+      <TextField fx:id="BankAccNo" layoutX="78.0" layoutY="268.0" promptText="Bank Account No." />
+      <PasswordField fx:id="bankPass" layoutX="315.0" layoutY="268.0" promptText="Password" />
+      <TextField layoutX="78.0" layoutY="327.0" promptText="Balance" />
+   </children>
+</AnchorPane>
